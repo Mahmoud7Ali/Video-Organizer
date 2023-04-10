@@ -1,0 +1,21 @@
+This Project use VLC Player
+This Project use database to save videos data after add it so please follow this steps
+
+create new login
+-----------------
+username mahmoudd
+password 123456
+-----------------
+
+CREATE DATABASE videos;
+USE video
+GO
+
+CREATE TABLE Video(
+	VN nvarchar(max),
+	P nvarchar(500) UNEQUE,
+	A nvarchar(max),
+	PL nvarchar(max),
+	T1 nvarchar(max),
+	T2 nvarchar(max)
+);
